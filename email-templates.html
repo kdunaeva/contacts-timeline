@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    />
+
+    <style>
+      @font-face {
+        :font-family: "Gotham Bold";
+        src: url("/public/Gotham-Bold.otf");
+        font-weight: 400;
+      }
+      @font-face {
+        :font-family: "New Hero";
+        src: url("/public/New Hero Regular.otf");
+        font-weight: 400;
+      }
+      @font-face {
+        :font-family: "Recoleta";
+        src: url("/public/Recoleta-Regular.ttf");
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="w-full relative bg-beige-25-pr overflow-hidden flex flex-col items-center justify-start py-[4rem] px-[5rem] box-border min-h-[60rem] tracking-[normal] text-left text-[1.26rem] text-grey-900 font-new-hero mq800:pl-[2.5rem] mq800:pr-[2.5rem] mq800:box-border"
+    >
+      <div
+        class="w-[40rem] bg-beige-25-pr flex flex-col items-start justify-start p-[2rem] box-border max-w-full mq800:pt-[1.31rem] mq800:pb-[1.31rem] mq800:box-border"
+      >
+        <div
+          class="self-stretch rounded-6xs bg-base-white shadow-[0px_1px_3px_rgba(16,_24,_40,_0.1),_0px_1px_2px_rgba(16,_24,_40,_0.06)] overflow-hidden flex flex-col items-start justify-start"
+        >
+          <div
+            class="self-stretch bg-base-white flex flex-col items-start justify-end py-[1.5rem] px-[2rem] box-border min-h-[5.88rem] font-gotham-bold"
+          >
+            <div
+              class="flex flex-row flex-wrap items-end justify-start gap-[0.53rem]"
+            >
+              <div
+                class="relative tracking-[0.2em] leading-[140%] uppercase mq450:text-[1rem] mq450:leading-[1.44rem]"
+              >
+                ultra
+              </div>
+              <img
+                class="h-[1.88rem] w-[1.88rem] relative min-h-[1.88rem]"
+                loading="eager"
+                alt=""
+                src="/public/logomark.svg"
+              />
+
+              <div
+                class="relative tracking-[0.2em] leading-[140%] uppercase mq450:text-[1rem] mq450:leading-[1.44rem]"
+              >
+                estates
+              </div>
+            </div>
+          </div>
+          <div
+            class="self-stretch bg-base-white flex flex-col items-start justify-start py-[1.5rem] px-[2rem] gap-[2.5rem] text-[1rem] text-grey-700 mq675:gap-[2.5rem]"
+          >
+            <div
+              class="self-stretch h-[5.75rem] relative tracking-[0.02em] leading-[150%] inline-block"
+            >
+              <p class="[margin-block-start:0] [margin-block-end:20px]">
+                <span class="text-grey-700">Hello </span>
+                <span class="[text-decoration:underline] text-beige-500-pr"
+                  >etienne@ultraestates.com</span
+                >
+                <span>,</span>
+              </p>
+              <p class="m-0">
+                <span>Someone has invited you to </span>
+                <span class="[text-decoration:underline] text-beige-500-pr"
+                  >ultraestates.com</span
+                >
+                <span>, you can accept it through the link below.</span>
+              </p>
+            </div>
+            <button
+              class="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-row items-start justify-start"
+            >
+              <div
+                class="rounded-6xs bg-beige-500-pr flex flex-row items-center justify-center py-[0.5rem] px-[1.38rem] gap-[0.5rem]"
+              >
+                <img
+                  class="h-[1.25rem] w-[1.25rem] relative overflow-hidden shrink-0 hidden"
+                  alt=""
+                  src="/public/placeholder.svg"
+                />
+
+                <div
+                  class="relative text-[1rem] tracking-[0.02em] leading-[150%] font-recoleta-text-md text-base-white text-center"
+                >
+                  Accept invitation
+                </div>
+                <img
+                  class="h-[1.25rem] w-[1.25rem] relative overflow-hidden shrink-0 hidden"
+                  alt=""
+                  src="/public/placeholder.svg"
+                />
+              </div>
+            </button>
+            <div class="self-stretch relative tracking-[0.02em] leading-[150%]">
+              If you don’t want to accept the invitation, please ignore this
+              email. Your account won’t be created until you access the link
+              above and set your password.
+            </div>
+          </div>
+          <div
+            class="self-stretch bg-base-white flex flex-col items-center justify-start pt-[2rem] px-[2rem] pb-[3rem] gap-[2rem] text-[0.88rem] text-dimgray mq675:gap-[2rem]"
+          >
+            <img
+              class="self-stretch relative max-w-full overflow-hidden max-h-full"
+              loading="eager"
+              alt=""
+              src="/public/divider.svg"
+            />
+
+            <div
+              class="self-stretch h-[5.88rem] relative tracking-[0.02em] leading-[140%] inline-block"
+            >
+              <p class="[margin-block-start:0] [margin-block-end:14px]">
+                <span class="text-dimgray">This email was sent to </span>
+                <span class="[text-decoration:underline]">
+                  <span class="text-beige-500-pr">olivia@ultraestates.com</span>
+                </span>
+                <span class="text-dimgray">
+                  <span class="[text-decoration:underline]">.</span> If you'd
+                  rather not receive this kind of email, you can
+                </span>
+                <span class="[text-decoration:underline] text-beige-500-pr"
+                  >unsubscribe</span
+                >
+                <span class="text-dimgray"> or </span>
+                <span class="[text-decoration:underline] text-beige-500-pr"
+                  >manage your email preferences</span
+                >
+                <span>.</span>
+              </p>
+              <p class="m-0">
+                © 2077 ULTRA ESTATES, 100 Smith Street, Melbourne VIC 3000
+              </p>
+            </div>
+            <div
+              class="self-stretch hidden flex-row items-start justify-center gap-[1.25rem] mq450:flex-wrap mq450:justify-center"
+            >
+              <img
+                class="h-[1.25rem] w-[1.25rem] relative overflow-hidden shrink-0 min-h-[1.25rem]"
+                alt=""
+                src="/public/social-icon.svg"
+              />
+
+              <img
+                class="h-[1.25rem] w-[1.25rem] relative overflow-hidden shrink-0 min-h-[1.25rem]"
+                alt=""
+                src="/public/social-icon-1.svg"
+              />
+
+              <img
+                class="h-[1.25rem] w-[1.25rem] relative overflow-hidden shrink-0 min-h-[1.25rem]"
+                alt=""
+                src="/public/social-icon-2.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
